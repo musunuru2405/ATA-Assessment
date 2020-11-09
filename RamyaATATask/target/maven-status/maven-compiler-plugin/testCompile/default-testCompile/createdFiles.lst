@@ -1,0 +1,10 @@
+browserControl\WebConnector.class
+pageObjects\DynamicLoadingPageObjects.class
+stepDefinitions\NavigationStepDefinitions.class
+stepDefinitions\BasicAuthStepDefinitions.class
+browserControl\CucumberAnnotations.class
+stepDefinitions\DynamicLoadingStepDefinitions.class
+pageObjects\JavaScriptAlertsPageObjects.class
+stepDefinitions\JavaScriptAlertsStepDefinitions.class
+com\RamyaATATask\TestRunner.class
+stepDefinitions\AssertStepDefinitions.class
