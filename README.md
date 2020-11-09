@@ -25,8 +25,8 @@ There are two options available to run the features
 	This will run the features in default chrome browser. 
 ## 2. Run scenarios from CLI  
 Navigate to the project directory in terminal and run following commands 
-### Run scenarios with default values. i.e default chrome browser and default url
-`mvn clean test -Dcucumber.options="src/test/resources/features" -Dcucumber.filter.tags="@RegressionTest"` (this will run the features & Scenarios that are tagged with @RegressionTest in chrome browser.)
+### Run scenarios with tag "@RegressionTest"
+`mvn clean test -Dcucumber.options="src/test/resources/features" -Dcucumber.filter.tags="@RegressionTest"`
 ### Run Basic Authentication scenarios
 `mvn clean test -Dcucumber.options="src/test/resources/features -Dcucumber.filter.tags="@FormAuthenticationTest"`
 ### Run Dynamic Loading scenarios
